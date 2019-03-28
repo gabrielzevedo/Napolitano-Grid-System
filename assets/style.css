@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.title {
+    font-size: 16px;
+    margin: 15px;
+}
+
+.col {
+    height: 100%;
+    background-image: url(img/bg.png);
+    background-size: cover;
+    background-blend-mode: color-burn;
+    background-attachment: fixed;
+}
+
+.napolitano,
+.nanana,
+.polipolipoli,
+.tanotanotano,
+.napolipoli,
+.nanapoli,
+.politanotano,
+.polipolitano,
+.natanotano,
+.nanatano,
+.nanapolitanopolinatanopoli {
+    width: 100%;
+    height: calc(50vh - 48px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.napolitano .col:nth-child(1) {
+    background-color: #ff90a6;
+    width: 33.33%;
+}
+
+.napolitano .col:nth-child(2) {
+    background-color: beige;
+    width: 33.33%;
+}
+
+.napolitano .col:nth-child(3) {
+    background-color: saddlebrown;
+    width: 33.33%;
+}
+
+
+
+.nanana .col:nth-child(1) {
+    background-color: #ff90a6;
+    width: 100%;
+}
+
+.polipolipoli .col:nth-child(1) {
+    background-color: beige;
+    width: 100%;
+}
+
+.tanotanotano .col:nth-child(1) {
+    background-color: saddlebrown;
+    width: 100%;
+}
+
+
+.napolipoli .col:nth-child(1) {
+    background-color: #ff90a6;
+    width: 33.34%;
+}
+
+.napolipoli .col:nth-child(2) {
+    background-color: beige;
+    width: 66.66%;
+}
+
+.nanapoli .col:nth-child(1) {
+    background-color: #ff90a6;
+    width: 66.66%;
+}
+
+.nanapoli .col:nth-child(2) {
+    background-color: beige;
+    width: 33.34%;
+}
+
+.politanotano .col:nth-child(1) {
+    background-color: beige;
+    width: 33.34%;
+}
+
+.politanotano .col:nth-child(2) {
+    background-color: saddlebrown;
+    width: 66.66%;
+}
+
+.polipolitano .col:nth-child(1) {
+    background-color: beige;
+    width: 66.66%;
+}
+
+.polipolitano .col:nth-child(2) {
+    background-color: saddlebrown;
+    width: 33.34%;
+}
+
+.natanotano .col:nth-child(1) {
+    background-color: #ff90a6;
+    width: 33.34%;
+}
+
+.natanotano .col:nth-child(2) {
+    background-color: saddlebrown;
+    width: 66.66%;
+}
+
+.nanatano .col:nth-child(1) {
+    background-color: #ff90a6;
+    width: 66.66%;
+}
+
+.nanatano .col:nth-child(2) {
+    background-color: saddlebrown;
+    width: 33.34%;
+}
+
+.nanapolitanopolinatanopoli .col:nth-child(1) {
+    background-color: #ff90a6;
+    width: 28.56%;
+}
+
+.nanapolitanopolinatanopoli .col:nth-child(2) {
+    background-color: beige;
+    width: 11.90%;
+}
+
+.nanapolitanopolinatanopoli .col:nth-child(3) {
+    background-color: saddlebrown;
+    width: 11.90%;
+}
+
+.nanapolitanopolinatanopoli .col:nth-child(4) {
+    background-color: beige;
+    width: 11.90%;
+}
+
+.nanapolitanopolinatanopoli .col:nth-child(5) {
+    background-color: #ff90a6;
+    width: 11.90%;
+}
+
+.nanapolitanopolinatanopoli .col:nth-child(6) {
+    background-color: saddlebrown;
+    width: 11.90%;
+}
+
+.nanapolitanopolinatanopoli .col:nth-child(7) {
+    background-color: beige;
+    width: 11.90%;
+}
